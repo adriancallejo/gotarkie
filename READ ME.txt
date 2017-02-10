@@ -1,0 +1,16 @@
+Edit the following:
+
+1. .htaccess
+	- change the value of RewriteBase to '/yourFolderName'
+	- RewriteCond
+	- RewriteRule
+
+2. config.php.ini
+	- domain 	= "http://www.yourdomainname.com/"
+	- subDir 	= "subDirectoryName"
+	- siteName 	= "The name of your site"
+
+	- dbName	= "yourDatabaseName"
+	- dbHost 	= "yourDatabaseHostName"
+	- dbUser 	= "yourDatabaseUsername"
+	- dbPwd 	= "youDatabasePassword"
